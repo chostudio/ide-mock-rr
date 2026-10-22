@@ -1,0 +1,8 @@
+{
+  "tiers": [
+    {"up_to": "10", "approver": null},
+    {"up_to": "20", "approver": "sales_manager"},
+    {"up_to": "30", "approver": "vp_sales"},
+    {"up_to": "100", "approver": "cfo"}
+  ]
+}

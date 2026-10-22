@@ -1,0 +1,47 @@
+{
+  "skus": [
+    {
+      "sku": "RR-PLAT",
+      "name": "Roadrunner Platform Seat",
+      "unit": "seat/year",
+      "list_price": "1200.00",
+      "tiers": [[200, "960.00"], [1, "1200.00"], [50, "1080.00"]],
+      "aliases": ["platform", "seat", "seats", "license"]
+    },
+    {
+      "sku": "RR-AGENT",
+      "name": "Agent Run Pack (1,000 runs)",
+      "unit": "pack/year",
+      "list_price": "500.00",
+      "tiers": [],
+      "aliases": ["agent runs", "runs", "agent pack"]
+    },
+    {
+      "sku": "RR-SSO",
+      "name": "SSO and SCIM Add-on",
+      "unit": "flat/year",
+      "list_price": "5000.00",
+      "max_qty": 1,
+      "tiers": [],
+      "aliases": ["sso", "scim", "single sign-on"]
+    },
+    {
+      "sku": "RR-IMPL",
+      "name": "Implementation Services",
+      "unit": "project",
+      "list_price": "15000.00",
+      "one_time": true,
+      "tiers": [],
+      "aliases": ["implementation", "onboarding", "services"]
+    },
+    {
+      "sku": "RR-LEGACY",
+      "name": "Legacy CPQ Connector Seat",
+      "unit": "seat/year",
+      "list_price": "900.00",
+      "deprecated": true,
+      "tiers": [],
+      "aliases": ["legacy", "seat", "connector"]
+    }
+  ]
+}
